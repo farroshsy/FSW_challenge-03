@@ -6,6 +6,7 @@ function filterCarByAvailability(cars) {
   const result = [];
 
   // Tulis code-mu disini
+  // Penggunaan Fungsi For Each
     cars.forEach(item => item.available ? result.push(item) : '');
   
   //Penggunaan Looping Manual
