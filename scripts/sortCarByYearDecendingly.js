@@ -16,6 +16,17 @@ function sortCarByYearDescendingly(cars) {
       }
     }
   })
+  
+  //   for (var i = 0; i < result.length; i++) {
+  //   for (var j = 0; j < result.length - 1; j++) {
+  //     if (result[j].year < result[j + 1].year) {
+  //       var temp = result[j];
+  //       result[j] = result[j + 1];
+  //       result[j + 1] = temp;
+  //     }
+  //   }
+  // }
+  // Rubah code ini dengan array hasil sorting secara descending
 
     console.table(result);
   // Rubah code ini dengan array hasil sorting secara descending
