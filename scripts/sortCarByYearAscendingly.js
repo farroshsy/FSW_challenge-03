@@ -7,6 +7,7 @@ function sortCarByYearAscendingly(cars) {
    const result = [...cars];
 
   // Tulis code-mu disini
+  // Penggunaan Fungsi For Each  
   result.forEach((value, i) => {
     for (let j = 0; j < result.length-i-1; j++) {
       if(result[j].year > result[j+1].year){
@@ -18,16 +19,16 @@ function sortCarByYearAscendingly(cars) {
   })
 
     console.table(result);
-  
-// for (var i = 0; i < result.length; i++) {
-//     for (var j = 0; j < result.length - 1; j++) {
-//       if (result[j].year > result[j + 1].year) {
-//         var temp = result[j];
-//         result[j] = result[j + 1];
-//         result[j + 1] = temp;
-//       }
-//     }
-//   }
+  // Penggunaan Looping Manual 
+  // for (var i = 0; i < result.length; i++) {
+  //     for (var j = 0; j < result.length - 1; j++) {
+  //       if (result[j].year > result[j + 1].year) {
+  //         var temp = result[j];
+  //         result[j] = result[j + 1];
+  //         result[j + 1] = temp;
+  //       }
+  //     }
+  //   }
 
   // Rubah code ini dengan array hasil sorting secara ascending
   return result;
