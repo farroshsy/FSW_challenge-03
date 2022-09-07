@@ -18,7 +18,6 @@ function sortCarByYearAscendingly(cars) {
     }
   })
 
-    console.table(result);
   // Penggunaan Looping Manual 
   // for (var i = 0; i < result.length; i++) {
   //     for (var j = 0; j < result.length - 1; j++) {
@@ -29,6 +28,8 @@ function sortCarByYearAscendingly(cars) {
   //       }
   //     }
   //   }
+
+    console.table(result);
 
   // Rubah code ini dengan array hasil sorting secara ascending
   return result;
