@@ -26,7 +26,6 @@ function sortCarByYearDescendingly(cars) {
   //     }
   //   }
   // }
-  // Rubah code ini dengan array hasil sorting secara descending
 
     console.table(result);
   // Rubah code ini dengan array hasil sorting secara descending
