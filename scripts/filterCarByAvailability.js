@@ -10,7 +10,7 @@ function filterCarByAvailability(cars) {
     cars.forEach(state => state.available ? result.push(state) : '');
   
   //Penggunaan Looping Manual
-    // for (let state = 0; state < cars.length; i++) {
+    // for (let state = 0; state < cars.length; state++) {
     //   if (cars[state].available === true) {
     //     result.push(cars[state]);
     //   }
