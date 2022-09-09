@@ -7,12 +7,12 @@ function filterCarByAvailability(cars) {
 
   // Tulis code-mu disini
   // Penggunaan Fungsi For Each
-    cars.forEach(item => item.available ? result.push(item) : '');
+    cars.forEach(state => state.available ? result.push(state) : '');
   
   //Penggunaan Looping Manual
-    // for (let i = 0; i < cars.length; i++) {
-    //   if (cars[i].available === true) {
-    //     result.push(cars[i]);
+    // for (let state = 0; state < cars.length; i++) {
+    //   if (cars[state].available === true) {
+    //     result.push(cars[state]);
     //   }
     // }
 
