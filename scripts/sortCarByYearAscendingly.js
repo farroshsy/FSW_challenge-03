@@ -19,8 +19,8 @@ function sortCarByYearAscendingly(cars) {
   })
 
   // Penggunaan Looping Manual 
-  // for (var i = 0; i < result.length; i++) {
-  //     for (var j = 0; j < result.length - 1; j++) {
+  // for (let i = 0; i < result.length; i++) {
+  //     for (let j = 0; j < result.length - 1; j++) {
   //       if (result[j].year > result[j + 1].year) {
   //         let temp = result[j];
   //         result[j] = result[j + 1];
